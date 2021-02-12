@@ -1,6 +1,6 @@
 main {
     .video-section {
-        padding: 2rem 1rem;
+        padding: 5rem 1rem 2rem 1rem;
 
 
         /* Code snippets copied from CSS Tricks */
@@ -50,7 +50,6 @@ main {
                 display: flex;
                 justify-content: space-between;
                 width: 100%;
-                z-index: 99;
 
                 .like-dislike {
                     padding-bottom: 10px;

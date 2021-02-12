@@ -4,6 +4,9 @@ nav {
     color: white;
     padding: .5rem 1rem;
     background-color: #202020;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 
     i {
         color: white;

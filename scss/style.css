@@ -20,6 +20,9 @@ nav {
   color: white;
   padding: .5rem 1rem;
   background-color: #202020;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
 }
 
 nav i {
@@ -148,7 +151,7 @@ nav .right-col .login-box i {
 }
 
 main .video-section {
-  padding: 2rem 1rem;
+  padding: 5rem 1rem 2rem 1rem;
   /* Code snippets copied from CSS Tricks */
   /* https://css-tricks.com/fluid-width-video/ */
 }
@@ -203,7 +206,6 @@ main .video-section .video-stats .actions {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  z-index: 99;
 }
 
 main .video-section .video-stats .actions .like-dislike {

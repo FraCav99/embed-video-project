@@ -563,4 +563,36 @@ main aside .related-video-container .video-info-container .brief-desc {
 main aside .related-video-container .video-info-container .author {
   margin-bottom: 4px;
 }
+
+@media (min-width: 1024px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+    -ms-grid-rows: 40% 60%;
+        grid-template-rows: 40% 60%;
+        grid-template-areas: "video sidebar " "comments sidebar";
+  }
+  main .video-section {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: video;
+  }
+  main aside {
+    padding-top: 80px;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: sidebar;
+  }
+  main aside button {
+    display: none;
+  }
+  main .comment-section {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: comments;
+  }
+}
 /*# sourceMappingURL=style.css.map */

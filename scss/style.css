@@ -146,4 +146,188 @@ nav .right-col .login-box i {
     border-radius: 0 2px 0 2px;
   }
 }
+
+main .video-section {
+  padding: 2rem 1rem;
+}
+
+main .video-section iframe {
+  width: 100%;
+  min-height: 15em;
+}
+
+main .video-section .video-title {
+  margin: 10px 0;
+}
+
+main .video-section .video-title span {
+  cursor: pointer;
+  color: #3EA6FF;
+  font-size: 12px;
+}
+
+main .video-section .video-title h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+main .video-section .video-stats {
+  border-bottom: 1px solid gray;
+  color: gray;
+  padding: 0 10px;
+}
+
+main .video-section .video-stats .views-and-date {
+  display: none;
+}
+
+main .video-section .video-stats .actions {
+  width: 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  z-index: 99;
+}
+
+main .video-section .video-stats .actions .like-dislike {
+  padding-bottom: 10px;
+  border-bottom: 2px solid gray;
+  width: 9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .video-section .video-stats .actions .like-dislike span {
+  cursor: pointer;
+}
+
+main .video-section .video-stats .actions span,
+main .video-section .video-stats .actions i {
+  cursor: pointer;
+}
+
+main .video-section .info-box {
+  margin-top: 15px;
+}
+
+main .video-section .info-box .creator-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .video-section .info-box .creator-info .user-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .video-section .info-box .creator-info .user-info .user-image-container {
+  width: 4rem;
+  height: 50px;
+  cursor: pointer;
+}
+
+main .video-section .info-box .creator-info .user-info .user-image-container img {
+  width: 50px;
+  height: 100%;
+  border-radius: 100%;
+}
+
+main .video-section .info-box .creator-info .user-info .username-subscribers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .video-section .info-box .creator-info .user-info .username-subscribers h1 {
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+main .video-section .info-box .creator-info .user-info .username-subscribers p {
+  color: gray;
+  font-size: 12px;
+}
+
+main .video-section .info-box .creator-info button {
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 12px;
+  background-color: #CC0000;
+  font-weight: bold;
+  border-radius: 2px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main .video-section .description {
+  line-height: 1.5;
+  border-bottom: 1px solid gray;
+  padding-top: 20px;
+  padding-left: 60px;
+  color: white;
+  font-size: 14px;
+}
+
+main .video-section .description a {
+  color: #3EA6FF;
+}
+
+main .video-section .description .show {
+  margin: 20px 0;
+  font-weight: bold;
+  cursor: pointer;
+  color: gray;
+  font-size: 12px;
+}
+
+@media (min-width: 600px) {
+  main .video-section .video-stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .video-section .video-stats .views-and-date {
+    display: block;
+    width: 40%;
+  }
+  main .video-section .video-stats .actions {
+    width: 60%;
+  }
+}
+
+main .comment-section {
+  background-color: lightseagreen;
+}
+
+main aside {
+  background-color: lightgreen;
+}
 /*# sourceMappingURL=style.css.map */

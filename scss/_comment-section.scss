@@ -1,5 +1,114 @@
 main {
     .comment-section {
-        background-color: lightseagreen;
+        padding: 2rem 1rem;
+        color: white;
+
+        .comment-section-header {
+            .sort {
+                cursor: pointer;
+                color: gray;
+                margin-left: 50px;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .user-comment {
+            display: flex;
+            margin: 30px 0;
+
+            .user-image {
+                img {
+                    border-radius: 50%;
+                }
+            }
+
+            .user-input-container {
+                width: 100%;
+                padding-left: 20px;
+                input {
+                    width: 100%;
+                    border: none;
+                    background: none;
+                    color: gray;
+                    border-bottom: 1px solid gray;
+                    padding-bottom: 3px;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+        .comments {
+            .comment {
+                margin-bottom: 30px;
+                .comment-header {
+                    display: flex;
+
+                    img {
+                        border-radius: 100%;
+                        margin-right: 10px;
+                    }
+
+                    .comment-info {
+                        .head {
+                            .username {
+                                font-weight: bold;
+                                font-size: 14px;
+                                margin-right: 10px;
+                            }
+                            .datetime {
+                                color: gray;
+                                font-size: 14px;
+                            }
+                        }
+                        .comment-text {
+                            font-size: 14px;
+                            margin-top: 7px;
+                        }
+                    }
+                }
+
+                .comment-likes-dislikes {
+                    padding-left: 60px;
+                    padding-top: 10px;
+
+                    span {
+                        margin-right: 20px;
+                        cursor: pointer;
+                        font-size: 14px;
+                        color: gray;
+
+                        i {
+                            margin-right: 10px;
+                        }
+
+                        &:last-child {
+                            font-weight: bold;
+                        }
+                    }
+                }
+
+                .comment-replies {
+                    padding-top: 10px;
+                    padding-left: 60px;
+                    color: #3EA6FF;
+                    font-weight: bold;
+                    font-size: 14px;
+
+                    span {
+                        cursor: pointer;
+
+                        i {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

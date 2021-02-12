@@ -340,6 +340,118 @@ main .comment-section {
 }
 
 main aside {
-  background-color: lightgreen;
+  padding: 0 1rem;
+}
+
+main aside a {
+  text-decoration: none;
+}
+
+main aside button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #3EA6FF;
+  border: 1px solid #3EA6FF;
+  border-radius: 2px;
+  padding: 10px 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+main aside .related-video-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 4px;
+}
+
+main aside .related-video-container .thumbnail-container {
+  margin-right: 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+main aside .related-video-container .thumbnail-container img {
+  z-index: -1;
+}
+
+main aside .related-video-container .thumbnail-container .upper-part {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 70%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-right: 5px;
+}
+
+main aside .related-video-container .thumbnail-container .upper-part i {
+  display: block;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  border-radius: 2px;
+}
+
+main aside .related-video-container .thumbnail-container .bottom-part {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  bottom: 3px;
+}
+
+main aside .related-video-container .thumbnail-container .bottom-part span {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  padding: 2px 4px;
+}
+
+main aside .related-video-container .thumbnail-container:hover .upper-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main aside .related-video-container .thumbnail-container:hover .bottom-part {
+  display: none;
+}
+
+main aside .related-video-container .video-info-container {
+  cursor: pointer;
+  color: gray;
+}
+
+main aside .related-video-container .video-info-container .title {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+main aside .related-video-container .video-info-container .author,
+main aside .related-video-container .video-info-container .brief-desc {
+  font-size: 12px;
+}
+
+main aside .related-video-container .video-info-container .author {
+  margin-bottom: 4px;
 }
 /*# sourceMappingURL=style.css.map */

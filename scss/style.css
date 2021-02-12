@@ -149,11 +149,23 @@ nav .right-col .login-box i {
 
 main .video-section {
   padding: 2rem 1rem;
+  /* Code snippets copied from CSS Tricks */
+  /* https://css-tricks.com/fluid-width-video/ */
 }
 
-main .video-section iframe {
+main .video-section .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0;
+}
+
+main .video-section .videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  min-height: 15em;
+  height: 100%;
 }
 
 main .video-section .video-title {
